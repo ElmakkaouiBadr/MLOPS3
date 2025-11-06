@@ -4,9 +4,11 @@ name: My First Workflow
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main", "01_DockerTest" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "main", "01_DockerTest" ]
+  workflow_dispatch:
+  
 
 
 jobs:
